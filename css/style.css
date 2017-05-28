@@ -667,6 +667,9 @@ form .text-danger {
 */
 
 @media (max-width: 900px) {
+    .overlay {
+        background-image: url(../images/bgmobile.jpg) !important;
+    }
     .overlay .closebtn {
         font-size: 40px;
         right: 15px;
@@ -675,6 +678,12 @@ form .text-danger {
 }
 
 @media screen and (max-width: 767px) {
+    .overlay {
+        background-image: url(../images/bgmobile.jpg) !important;
+    }
+    #Main h1 {
+        font-size: 44px !important;
+    }
     .coming-soon-text h1 {
         font-size: 48px;
     }
@@ -690,12 +699,21 @@ form .text-danger {
 }
 
 @media screen and (max-width: 540px) {
+    #Main h1 {
+        font-size: 44px;
+    }
+    .coming-soon-text h1 {
+        font-size: 44px;
+    }
     .countdown-section {
         margin: 8px;
     }
 }
 
 @media screen and (max-width: 480px) {
+    #Main h1 {
+        font-size: 44px !important;
+    }
     .countdown-amount {
         font-size: 36px;
     }
@@ -708,6 +726,9 @@ form .text-danger {
 }
 
 @media screen and (max-width: 420px) {
+    #Main h1 {
+        font-size: 36px !important;
+    }
     .coming-soon-text h1 {
         font-size: 36px;
     }
@@ -715,7 +736,7 @@ form .text-danger {
 
 @media screen and (max-width: 340px) {
     #Main h1 {
-        font-size: 32px;
+        font-size: 32px !important;
     }
     .countdown-amount {
         font-size: 32px;
